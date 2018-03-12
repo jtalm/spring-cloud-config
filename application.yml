@@ -1,7 +1,7 @@
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:9090/eureka,http://localhost:9075/eureka
+      defaultZone: http://localhost:9090/eureka
     register-with-eureka: true
     fetch-registry: true
     healthcheck:
