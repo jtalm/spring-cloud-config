@@ -38,6 +38,7 @@
                     <descriptorRefs>
                         <descriptorRef>jar-with-dependencies</descriptorRef>
                     </descriptorRefs>
+                    <finalName>${project.build.finalName}</finalName>
                 </configuration>
                 <executions>
                     <execution>

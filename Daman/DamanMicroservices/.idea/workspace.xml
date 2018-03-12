@@ -45,8 +45,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/support-services/config-server-service/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="515">
-              <caret line="43" column="46" lean-forward="false" selection-start-line="43" selection-start-column="46" selection-end-line="43" selection-end-column="46" />
+            <state relative-caret-position="557">
+              <caret line="40" column="57" lean-forward="false" selection-start-line="40" selection-start-column="57" selection-end-line="40" selection-end-column="57" />
               <folding />
             </state>
           </provider>
@@ -109,7 +109,6 @@
         <option value="$PROJECT_DIR$/business-services/pom.xml" />
         <option value="$PROJECT_DIR$/support-services/config-server-service/src/main/java/com/microservices/config/server/ConfigServer.java" />
         <option value="$PROJECT_DIR$/support-services/config-server-service/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/business-services/hello-world-service/Dockerfile" />
         <option value="$PROJECT_DIR$/business-services/hello-world-service/src/main/java/com/microservices/services/helloworld/HelloWorldController.java" />
         <option value="$PROJECT_DIR$/support-services/config-server-service/Dockerfile" />
@@ -124,6 +123,7 @@
         <option value="$PROJECT_DIR$/business-services/hello-world-service/pom.xml" />
         <option value="$PROJECT_DIR$/business-services/service-searcher-service/pom.xml" />
         <option value="$PROJECT_DIR$/business-services/service-searcher-service/Dockerfile" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/support-services/config-server-service/pom.xml" />
       </list>
     </option>
@@ -141,22 +141,22 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="microservices" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Microservices" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="microservices" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Microservices" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Modules" type="87271259:MavenProjectsStructure$ModulesNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="microservices" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Microservices" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Modules" type="87271259:MavenProjectsStructure$ModulesNode" />
           <item name="Support Microservices" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="microservices" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Microservices" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Modules" type="87271259:MavenProjectsStructure$ModulesNode" />
           <item name="Support Microservices" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
@@ -861,14 +861,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="23" column="55" lean-forward="false" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/support-services/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
@@ -885,10 +877,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/support-services/config-server-service/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="515">
-          <caret line="43" column="46" lean-forward="false" selection-start-line="43" selection-start-column="46" selection-end-line="43" selection-end-column="46" />
+        <state relative-caret-position="557">
+          <caret line="40" column="57" lean-forward="false" selection-start-line="40" selection-start-column="57" selection-end-line="40" selection-end-column="57" />
           <folding />
         </state>
       </provider>
