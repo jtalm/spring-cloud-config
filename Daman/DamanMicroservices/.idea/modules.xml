@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/DamanMicroservices.iml" filepath="$PROJECT_DIR$/DamanMicroservices.iml" />
+      <module fileurl="file://$PROJECT_DIR$/support-services/admin-server-service/admin-server-service.iml" filepath="$PROJECT_DIR$/support-services/admin-server-service/admin-server-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/business-services/business-services.iml" filepath="$PROJECT_DIR$/business-services/business-services.iml" />
+      <module fileurl="file://$PROJECT_DIR$/support-services/config-server-service/config-server-service.iml" filepath="$PROJECT_DIR$/support-services/config-server-service/config-server-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/support-services/eureka-server-service/eureka-server-service.iml" filepath="$PROJECT_DIR$/support-services/eureka-server-service/eureka-server-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/business-services/hello-world-service/hello-world-service.iml" filepath="$PROJECT_DIR$/business-services/hello-world-service/hello-world-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/support-services/ordina-dashboard-service/ordina-dashboard-service.iml" filepath="$PROJECT_DIR$/support-services/ordina-dashboard-service/ordina-dashboard-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/business-services/service-searcher-service/service-searcher-service.iml" filepath="$PROJECT_DIR$/business-services/service-searcher-service/service-searcher-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/support-services/support-services.iml" filepath="$PROJECT_DIR$/support-services/support-services.iml" />
+      <module fileurl="file://$PROJECT_DIR$/support-services/zuul-service/zuul-service.iml" filepath="$PROJECT_DIR$/support-services/zuul-service/zuul-service.iml" />
+    </modules>
+  </component>
+</project>

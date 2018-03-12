@@ -1,0 +1,4 @@
+ribbon:
+  eureka:
+    enabled: true
+  ServerListRefreshInterval: 5000
