@@ -9,7 +9,7 @@
 
     <parent>
         <groupId>com.deloitte.microservices</groupId>
-        <artifactId>microservices</artifactId>
+        <artifactId>Microservices</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
