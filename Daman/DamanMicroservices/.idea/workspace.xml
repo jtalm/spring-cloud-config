@@ -32,11 +32,71 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/support-services/admin-server-service/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="693">
-              <caret line="61" column="22" lean-forward="false" selection-start-line="61" selection-start-column="22" selection-end-line="61" selection-end-column="22" />
+            <state relative-caret-position="483">
+              <caret line="51" column="20" lean-forward="false" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="83" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/support-services/config-server-service/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="578">
+              <caret line="41" column="83" lean-forward="false" selection-start-line="41" selection-start-column="83" selection-end-line="41" selection-end-column="83" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/support-services/eureka-server-service/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="578">
+              <caret line="46" column="83" lean-forward="false" selection-start-line="46" selection-start-column="83" selection-end-line="46" selection-end-column="83" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/support-services/ordina-dashboard-service/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="46" column="83" lean-forward="false" selection-start-line="46" selection-start-column="83" selection-end-line="46" selection-end-column="83" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/support-services/zuul-service/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="51" column="83" lean-forward="false" selection-start-line="51" selection-start-column="83" selection-end-line="51" selection-end-column="83" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/business-services/service-searcher-service/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="34" column="83" lean-forward="false" selection-start-line="34" selection-start-column="83" selection-end-line="34" selection-end-column="83" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/business-services/hello-world-service/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="33" column="39" lean-forward="true" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -116,15 +176,15 @@
         <option value="$PROJECT_DIR$/support-services/admin-server-service/Dockerfile" />
         <option value="$PROJECT_DIR$/business-services/service-searcher-service/Dockerfile" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/support-services/config-server-service/pom.xml" />
-        <option value="$PROJECT_DIR$/support-services/zuul-service/pom.xml" />
-        <option value="$PROJECT_DIR$/support-services/ordina-dashboard-service/pom.xml" />
-        <option value="$PROJECT_DIR$/support-services/eureka-server-service/pom.xml" />
-        <option value="$PROJECT_DIR$/business-services/service-searcher-service/pom.xml" />
-        <option value="$PROJECT_DIR$/business-services/hello-world-service/pom.xml" />
         <option value="$PROJECT_DIR$/support-services/pom.xml" />
         <option value="$PROJECT_DIR$/business-services/pom.xml" />
         <option value="$PROJECT_DIR$/support-services/admin-server-service/pom.xml" />
+        <option value="$PROJECT_DIR$/support-services/config-server-service/pom.xml" />
+        <option value="$PROJECT_DIR$/support-services/eureka-server-service/pom.xml" />
+        <option value="$PROJECT_DIR$/support-services/ordina-dashboard-service/pom.xml" />
+        <option value="$PROJECT_DIR$/support-services/zuul-service/pom.xml" />
+        <option value="$PROJECT_DIR$/business-services/service-searcher-service/pom.xml" />
+        <option value="$PROJECT_DIR$/business-services/hello-world-service/pom.xml" />
       </list>
     </option>
   </component>
@@ -204,6 +264,18 @@
             <path>
               <item name="DamanMicroservices" type="b2602c69:ProjectViewProjectNode" />
               <item name="DamanMicroservices" type="462c0819:PsiDirectoryNode" />
+              <item name="business-services" type="462c0819:PsiDirectoryNode" />
+              <item name="hello-world-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DamanMicroservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DamanMicroservices" type="462c0819:PsiDirectoryNode" />
+              <item name="business-services" type="462c0819:PsiDirectoryNode" />
+              <item name="service-searcher-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DamanMicroservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DamanMicroservices" type="462c0819:PsiDirectoryNode" />
               <item name="support-services" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -211,6 +283,30 @@
               <item name="DamanMicroservices" type="462c0819:PsiDirectoryNode" />
               <item name="support-services" type="462c0819:PsiDirectoryNode" />
               <item name="admin-server-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DamanMicroservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DamanMicroservices" type="462c0819:PsiDirectoryNode" />
+              <item name="support-services" type="462c0819:PsiDirectoryNode" />
+              <item name="config-server-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DamanMicroservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DamanMicroservices" type="462c0819:PsiDirectoryNode" />
+              <item name="support-services" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-server-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DamanMicroservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DamanMicroservices" type="462c0819:PsiDirectoryNode" />
+              <item name="support-services" type="462c0819:PsiDirectoryNode" />
+              <item name="ordina-dashboard-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DamanMicroservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DamanMicroservices" type="462c0819:PsiDirectoryNode" />
+              <item name="support-services" type="462c0819:PsiDirectoryNode" />
+              <item name="zuul-service" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -787,54 +883,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/support-services/zuul-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="43" column="84" lean-forward="false" selection-start-line="43" selection-start-column="84" selection-end-line="43" selection-end-column="84" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/support-services/ordina-dashboard-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="34" column="18" lean-forward="false" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/support-services/eureka-server-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="38" column="83" lean-forward="false" selection-start-line="38" selection-start-column="83" selection-end-line="38" selection-end-column="83" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/support-services/config-server-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="809">
-          <caret line="52" column="20" lean-forward="true" selection-start-line="27" selection-start-column="12" selection-end-line="52" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/business-services/service-searcher-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="26" column="90" lean-forward="false" selection-start-line="26" selection-start-column="90" selection-end-line="26" selection-end-column="90" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/business-services/hello-world-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="34" column="80" lean-forward="false" selection-start-line="34" selection-start-column="80" selection-end-line="34" selection-end-column="80" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/business-services/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
@@ -853,8 +901,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/support-services/admin-server-service/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="693">
-          <caret line="61" column="22" lean-forward="false" selection-start-line="61" selection-start-column="22" selection-end-line="61" selection-end-column="22" />
+        <state relative-caret-position="483">
+          <caret line="51" column="20" lean-forward="false" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/support-services/config-server-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="41" column="83" lean-forward="false" selection-start-line="41" selection-start-column="83" selection-end-line="41" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/support-services/eureka-server-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="46" column="83" lean-forward="false" selection-start-line="46" selection-start-column="83" selection-end-line="46" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/support-services/ordina-dashboard-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="46" column="83" lean-forward="false" selection-start-line="46" selection-start-column="83" selection-end-line="46" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/support-services/zuul-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="51" column="83" lean-forward="false" selection-start-line="51" selection-start-column="83" selection-end-line="51" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/business-services/service-searcher-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="34" column="83" lean-forward="false" selection-start-line="34" selection-start-column="83" selection-end-line="34" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/business-services/hello-world-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="33" column="39" lean-forward="true" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
           <folding />
         </state>
       </provider>

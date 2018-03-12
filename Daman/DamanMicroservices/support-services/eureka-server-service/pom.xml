@@ -44,6 +44,7 @@
                         <descriptorRef>jar-with-dependencies</descriptorRef>
                     </descriptorRefs>
                     <appendAssemblyId>false</appendAssemblyId>
+                    <archiveBaseDirectory>${project.basedir}</archiveBaseDirectory>
                 </configuration>
                 <executions>
                     <execution>

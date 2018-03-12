@@ -35,7 +35,7 @@
 
     <build>
         <plugins>
-            <!--plugin>
+            <plugin>
                 <artifactId>maven-assembly-plugin</artifactId>
                 <configuration>
                     <archive>
@@ -49,6 +49,7 @@
                         <descriptorRef>jar-with-dependencies</descriptorRef>
                     </descriptorRefs>
                     <appendAssemblyId>false</appendAssemblyId>
+                    <archiveBaseDirectory>${project.basedir}</archiveBaseDirectory>
                 </configuration>
                 <executions>
                     <execution>
@@ -59,7 +60,7 @@
                         </goals>
                     </execution>
                 </executions>
-            </plugin-->
+            </plugin>
             <plugin>
                 <groupId>com.spotify</groupId>
                 <artifactId>docker-maven-plugin</artifactId>
