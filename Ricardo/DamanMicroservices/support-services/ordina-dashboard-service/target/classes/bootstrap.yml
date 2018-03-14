@@ -1,0 +1,9 @@
+server:
+  port: 8073
+
+spring:
+  application:
+    name: ordina-dashboard-server
+  cloud:
+    config:
+      uri: http://localhost:8071

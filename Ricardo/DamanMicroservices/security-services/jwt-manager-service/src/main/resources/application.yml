@@ -1,0 +1,18 @@
+server:
+  port: 0
+
+spring:
+  application:
+    name: JWTManager-Service
+
+eureka:
+  instance:
+    appname: ${spring.application.name}
+    leaseRenewalIntervalInSeconds: 1
+    leaseExpirationDurationInSeconds: 10
+    metadataMap:
+      instanceId: ${spring.application.name}:${random.value}
+    instanceId: ${spring.application.name}:${random.value}
+
+  client:
+    defaultZone: http://localhost:8761/eureka
