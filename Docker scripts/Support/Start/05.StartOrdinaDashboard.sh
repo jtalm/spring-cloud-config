@@ -1,14 +1,17 @@
 #!/bin/bash
 
+#Get this script folder
+SCRIPTPATH=`dirname "$0"`
+
 #Generate random uuid
 uuid=$(uuidgen)
 
-#UUID
-uuid=${uuid,,}
+#Container Name
+containerName="ordina-dashboard-${uuid,,}"
 
 #Start Container
-echo "Starting ordina-dashboard..."
-docker run --name ordina-dashboard-${uuid} -d -p 8073:8073 --net host ordina-dashboard-service:latest
+echo "Instantiating new Ordina-Dashboard on container: ${containerName}"
+docker run --name ${containerName} -d -p 8073:8073 --net host ordina-dashboard-service:latest
 
 #Check for service availability
 source $SCRIPTPATH/99.waitForService.sh localhost 8073 health;
