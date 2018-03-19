@@ -7,10 +7,10 @@ scriptPath=`dirname "$0"`
 uuid=$(uuidgen)
 
 #Container Name
-containerName="config-server-${uuid,,}"
+containerName="admin-server-${uuid,,}"
 
 #Start Container
-echo "Instantiating new Config-Server on container: ${containerName}"
+echo "Instantiating new Admin-Server on container: ${containerName}"
 docker run --name ${containerName} -d -p 8072:8072 --net host admin-server-service:latest
 
 #Check for service availability

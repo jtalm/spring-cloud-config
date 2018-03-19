@@ -18,7 +18,7 @@ fi
 #Start Container
 echo "Instantiating new Eureka-Server on container: ${containerName}"
 echo "Port is set to $containerPort"
-docker run --name ${containerName} -d -p $containerPort:9090 --net host eureka-server-service:latest
+docker run --name ${containerName} -d -p $containerPort:$containerPort --net host --env EUREKA_PORT="$containerPort" eureka-server-service:latest
 
 #Check for service availability
 source $scriptPath/99.waitForService.sh localhost $containerPort health;
