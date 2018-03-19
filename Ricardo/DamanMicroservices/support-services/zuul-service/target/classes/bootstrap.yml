@@ -22,6 +22,10 @@ zuul:
       path: /ServiceSearcher/**
       serviceId: service-searcher
 
+    jwtmanager:
+      path: /tokenmanager/**
+      serviceId: jwtmanager-service
+
 spring:
   application:
     name: zuul-router

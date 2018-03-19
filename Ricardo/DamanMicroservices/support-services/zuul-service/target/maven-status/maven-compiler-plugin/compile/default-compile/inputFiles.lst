@@ -1,1 +1,7 @@
-C:\GIT Repositories\Daman\DamanMicroservices\support-services\zuul-service\src\main\java\com\microservices\zuul\zuulrouter\ZuulRouter.java
+C:\GIT Repositories\spring-cloud-config\Ricardo\DamanMicroservices\support-services\zuul-service\src\main\java\com\microservices\zuul\zuulrouter\controllers\AccountCredentials.java
+C:\GIT Repositories\spring-cloud-config\Ricardo\DamanMicroservices\support-services\zuul-service\src\main\java\com\microservices\zuul\zuulrouter\controllers\AuthenticationController.java
+C:\GIT Repositories\spring-cloud-config\Ricardo\DamanMicroservices\support-services\zuul-service\src\main\java\com\microservices\zuul\zuulrouter\filters\AuthenticationFilter.java
+C:\GIT Repositories\spring-cloud-config\Ricardo\DamanMicroservices\support-services\zuul-service\src\main\java\com\microservices\zuul\zuulrouter\filters\LoginFilter.java
+C:\GIT Repositories\spring-cloud-config\Ricardo\DamanMicroservices\support-services\zuul-service\src\main\java\com\microservices\zuul\zuulrouter\configurations\JWTManagerConfiguration.java
+C:\GIT Repositories\spring-cloud-config\Ricardo\DamanMicroservices\support-services\zuul-service\src\main\java\com\microservices\zuul\zuulrouter\ZuulRouter.java
+C:\GIT Repositories\spring-cloud-config\Ricardo\DamanMicroservices\support-services\zuul-service\src\main\java\com\microservices\zuul\zuulrouter\controllers\LoginController.java

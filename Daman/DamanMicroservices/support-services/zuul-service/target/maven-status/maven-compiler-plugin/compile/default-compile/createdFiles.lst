@@ -1,4 +1,0 @@
-com\microservices\zuul\zuulrouter\ZuulController.class
-com\microservices\zuul\filters\post.class
-com\microservices\zuul\filters\pre.class
-com\microservices\zuul\zuulrouter\ZuulRouter.class

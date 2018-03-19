@@ -1,1 +1,6 @@
+com\microservices\zuul\zuulrouter\configurations\JWTManagerConfiguration.class
+com\microservices\zuul\zuulrouter\controllers\AuthenticationController.class
+com\microservices\zuul\zuulrouter\filters\AuthenticationFilter.class
+com\microservices\zuul\zuulrouter\filters\LoginFilter.class
+com\microservices\zuul\zuulrouter\controllers\AccountCredentials.class
 com\microservices\zuul\zuulrouter\ZuulRouter.class
