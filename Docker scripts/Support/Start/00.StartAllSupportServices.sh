@@ -1,33 +1,31 @@
 #!/bin/bash
 
 #Get this script folder
-SCRIPTPATH=`dirname "$0"`
+scriptPath=`dirname "$0"`
 
 #Set Number of Instances
-EUREKAINSTACES=3
-ZUULINSTANCES=2
+eurekaInstances=3
+zuulInstances=3
+
+#Set services ports
+eurekaPorts=( "9090" "9091" "9092")
+zuulPorts=( "9001" "9002" "9003")
 
 #Start Config Server
-source $SCRIPTPATH/01.StartConfigServer.sh
+source $scriptPath/01.StartConfigServer.sh
 
 #Start Eureka Servers
-source $SCRIPTPATH/02.1.StartFirstEurekaServer.sh
-
-if [ "$EUREKAINSTACES" -le 2]; then
-	source $SCRIPTPATH/02.2.StartSecondEurekaServer.sh
-fi
-
-if [ "$EUREKAINSTACES" -le 3]; then
-	source $SCRIPTPATH/02.3.StartThirdEurekaServer.sh
-fi
+for eurekaPortIndex in `seq 0 $eurekaInstances`
+do
+	source $scriptPath/02.StartEurekaServer.sh ${eurekaPorts[eurekaPortIndex]}
+done
 
 #Start Zuuls
-source $SCRIPTPATH/03.1.StartFirstZuul.sh
-
-if [ "$ZUULINSTACES" -le 2]; then
-source $SCRIPTPATH/03.2.StartSecondZuul.sh
-fi
+for zuulPortIndex in `seq 0 $zuulInstances`
+do
+	source $scriptPath/03.StartZuul.sh ${eurekaPorts[zuulPortIndex]}
+done
 
 #Start management services
-source $SCRIPTPATH/04.StartAdminServer.sh
-source $SCRIPTPATH/05.StartOrdinaDashboard.sh
+source $scriptPath/04.StartAdminServer.sh
+source $scriptPath/05.StartOrdinaDashboard.sh
