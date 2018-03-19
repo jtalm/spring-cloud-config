@@ -1,0 +1,6 @@
+HTTP/1.1 200 
+X-Application-Context: config-server:8071
+Content-Type: application/json;charset=UTF-8
+Content-Length: 773
+Date: Mon, 19 Mar 2018 06:55:49 GMT
+
