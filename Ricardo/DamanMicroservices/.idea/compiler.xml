@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="admin-server-service" />
+        <module name="config-server-service" />
+        <module name="eureka" />
+        <module name="helloworld" />
+        <module name="jwt-manager-service" />
+        <module name="ordina-dashboard-service" />
+        <module name="servicedsearcher" />
+        <module name="zuul" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="admin-server-service" target="1.6" />
+      <module name="authentication-service" target="1.6" />
+      <module name="business" target="1.6" />
+      <module name="config-server-service" target="1.6" />
+      <module name="eureka" target="1.6" />
+      <module name="helloworld" target="1.6" />
+      <module name="jwt-manager-service" target="1.8" />
+      <module name="microservices" target="1.6" />
+      <module name="ordina-dashboard-service" target="1.6" />
+      <module name="security-services" target="1.6" />
+      <module name="servicedsearcher" target="1.5" />
+      <module name="support" target="1.6" />
+      <module name="zuul" target="1.6" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/support-services/admin-server-service/admin-server-service.iml" filepath="$PROJECT_DIR$/support-services/admin-server-service/admin-server-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/business-services/business.iml" filepath="$PROJECT_DIR$/business-services/business.iml" />
+      <module fileurl="file://$PROJECT_DIR$/support-services/config-server-service/config-server-service.iml" filepath="$PROJECT_DIR$/support-services/config-server-service/config-server-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/support-services/eureka-server-service/eureka.iml" filepath="$PROJECT_DIR$/support-services/eureka-server-service/eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/business-services/helloworld-service/helloworld.iml" filepath="$PROJECT_DIR$/business-services/helloworld-service/helloworld.iml" />
+      <module fileurl="file://$PROJECT_DIR$/security-services/jwt-manager-service/jwt-manager-service.iml" filepath="$PROJECT_DIR$/security-services/jwt-manager-service/jwt-manager-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservices.iml" filepath="$PROJECT_DIR$/microservices.iml" />
+      <module fileurl="file://$PROJECT_DIR$/support-services/ordina-dashboard-service/ordina-dashboard-service.iml" filepath="$PROJECT_DIR$/support-services/ordina-dashboard-service/ordina-dashboard-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/security-services/security-services.iml" filepath="$PROJECT_DIR$/security-services/security-services.iml" />
+      <module fileurl="file://$PROJECT_DIR$/business-services/servicedsearcher-service/servicedsearcher.iml" filepath="$PROJECT_DIR$/business-services/servicedsearcher-service/servicedsearcher.iml" />
+      <module fileurl="file://$PROJECT_DIR$/support-services/support.iml" filepath="$PROJECT_DIR$/support-services/support.iml" />
+      <module fileurl="file://$PROJECT_DIR$/support-services/zuul-service/zuul.iml" filepath="$PROJECT_DIR$/support-services/zuul-service/zuul.iml" />
+    </modules>
+  </component>
+</project>

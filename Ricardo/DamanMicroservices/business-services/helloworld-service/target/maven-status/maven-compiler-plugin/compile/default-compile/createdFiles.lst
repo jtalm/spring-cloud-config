@@ -1,0 +1,4 @@
+com\microservices\services\helloworld\HelloWorld.class
+com\microservices\services\configurations\ServiceSearcherConfiguration.class
+com\microservices\services\helloworld\HelloWorldController.class
+com\microservices\services\helloworld\ServiceSearchRestTemplate.class
