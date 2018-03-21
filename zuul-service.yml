@@ -2,8 +2,12 @@ zuul:
   routes:
     hello-world:
       path: /hello/**
-      serviceId: hello-world
+      serviceId: hello-world-service
 
+    goodbye-world:
+      path: /bye/**
+      serviceId: goodbye-world-service
+      
     service-searcher:
       path: /ServiceSearcher/**
       serviceId: service-searcher
