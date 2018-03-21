@@ -5,7 +5,7 @@ zuul:
       serviceId: hello-world-service
 
     goodbye-world:
-      path: /bye/**
+      path: /goodbye/**
       serviceId: goodbye-world-service
       
     service-searcher:
