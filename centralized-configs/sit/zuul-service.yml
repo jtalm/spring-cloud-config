@@ -1,0 +1,17 @@
+zuul:
+  routes:
+    hello-world:
+      path: /hello/**
+      serviceId: hello-world
+
+    service-searcher:
+      path: /ServiceSearcher/**
+      serviceId: service-searcher
+
+    jwtmanager:
+      path: /tokenmanager/**
+      serviceId: jwtmanager-service
+
+feign:
+  hystrix:
+    enabled: true
